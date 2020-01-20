@@ -1,0 +1,54 @@
+/* pages/Firstpage/Firstpage.wxss */
+.swiper{
+  width: 100%;
+  height: 250px;
+}
+.swiper-item{
+
+}
+image{
+  width: 100%;
+}
+.jump0{
+  font-size:18px; 
+  width: 35%;
+  height: 100px;
+  margin-left: 1%;
+  margin-top: -80px;
+  
+}
+.text0{
+  margin-top: 5%;
+  margin-left: 7%;
+  font-size: 22px;
+  color: rgb(58, 57, 50);
+}
+.jump1{
+  font-size:18px; 
+  width: 30%;
+  height: 20px;
+  margin-left: 35%;
+  margin-top: -36%;
+  
+}
+.text1{
+  margin-top: 25%;
+  margin-left: 45.8%;
+  font-size: 22px;
+  color: rgb(58, 57, 50);
+}
+
+.jump2{
+  font-size:18px; 
+  width: 30%;
+  height: 20px;
+  margin-left: 70%;
+  margin-top: -38%;
+  
+}
+.text2{
+  margin-top: 25%;
+  margin-left: 73%;
+  font-size: 22px;
+  color: rgb(58, 57, 50);
+}

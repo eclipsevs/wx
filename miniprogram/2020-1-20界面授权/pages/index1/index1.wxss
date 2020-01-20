@@ -1,0 +1,23 @@
+/* pages/index1/index1.wxss */
+.body{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  font-size: 15px;
+}
+/*flex水平布局*/
+.choice_0{
+  display: flex;
+  flex-direction: row;
+}
+.choice_1{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+.to_shopcar{
+  margin-top: 25%;
+}
+.info_and_submit{
+  margin-top: 20%;
+}

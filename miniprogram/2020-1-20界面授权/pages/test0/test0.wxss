@@ -1,0 +1,4 @@
+/* pages/test0/test0.wxss */
+.getinfo{
+margin-top: 50%;
+}

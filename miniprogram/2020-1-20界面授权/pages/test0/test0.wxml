@@ -1,0 +1,5 @@
+<view class="getinfo" name="getinfo" bindtap="jump_tabar_page">
+<navigator url="../First_page/First_page" open-type="navigate">
+<button type="primary" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 授权获取头像昵称 </button>
+</navigator>
+</view>
