@@ -1,0 +1,41 @@
+<!--pages/index1/index1.wxml-->
+<view class="body">
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class="number">
+  <text>打印份数</text>
+    <input name="input_number" placeholder="输入份数" type="number"/>
+</view>
+<text>\n</text>
+
+<view class="choice_0">
+<radio-group class="radio-group" bindchange="radioChange">
+  <radio class="radio" wx:for-items="{{items}}" wx:key="name" value="{{item.name}}" checked="{{item.checked}}">
+  <text>{{item.value}}</text>
+  </radio>
+</radio-group>
+</view>
+
+<view class="choice_1">
+  <radio-group class="radio-group1" bindchange="radioChange">
+  <radio class="radio1" wx:for-items="{{items1}}" wx:key="name" value="{{item.name}}" checked="{{item.checked}}">
+ <text>{{item.value}}</text>
+  </radio>
+  </radio-group>
+</view>
+
+<view class="info_and_submit">
+  <text>备注</text>
+    <input name="remarks" placeholder="备注格式" type="text"></input>
+  <text>\n</text>
+  <button form-type="submit" type="default" bindtap="submit_img">上传文件</button>
+  <input name="submit" placeholder="文件目录" type="text"></input>
+</view>
+<text>\n</text>
+
+<view class="to_shopcar" name="to_shopcar">
+  <button form-type="submit" type="primary" >确认打印，加入购物车</button>
+</view>
+
+</form>
+</view>

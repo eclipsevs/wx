@@ -1,0 +1,63 @@
+<!--pages/index0/index0.wxml-->
+<view class="page">
+
+  <view class="swiper">
+    <swiper indicator-dots autoplay interval="2500" circular>
+    <swiper-item><image src="../image/1.png"></image></swiper-item>
+    <swiper-item><image src="../image/2.png"></image></swiper-item>
+    <swiper-item><image src="../image/3.png"></image></swiper-item>
+    </swiper>
+  </view>
+
+ <view class="body">
+
+  <view class="left">
+
+    <view class="l1">
+      <navigator url="../index1/index1" open-type="navigate">
+        <image class="img" src="../image/normalp.png"  mode="widthFix"></image>
+      </navigator>
+    </view>
+    <view class="l1_1">
+      <text>普通打印</text>
+    </view>
+
+    <view class="l3">
+      <navigator url="../index1/index1" open-type="navigate">
+        <image class="img" src="../image/photop.png"  mode="widthFix"></image>
+      </navigator>
+    </view>
+    <view class="l3_1">
+      <text>照片打印</text>
+    </view>
+  </view>
+
+  <view class="right">
+
+     <view class="l2">
+    <navigator url="../index1/index1" open-type="navigate">
+      <image class="img" src="../image/colorp.png"  mode="widthFix"></image>
+    </navigator>
+   </view>
+   <view class="l2_1">
+     <text>彩印</text>
+   </view>
+
+   <view class="l4">
+    <navigator url="../index1/index1" open-type="navigate">
+      <image class="img" src="../image/anotherp.png"  mode="widthFix"></image>
+    </navigator>
+   </view>
+   <view class="l4_1">
+     <text>其他</text>
+   </view>
+
+   </view>
+ </view>
+</view>
+
+<view class="foot">
+  <text space="emsp">联系我们:QQ:1620554712
+     电话:17639859310</text>
+ 
+</view>

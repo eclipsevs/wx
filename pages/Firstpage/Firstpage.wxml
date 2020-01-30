@@ -1,0 +1,44 @@
+<!--pages/index0/index0.wxml-->
+<view class="swiper">
+<swiper indicator-dots autoplay interval="2500" circular>
+<swiper-item><image mode="widthFix" src="../image/1.png"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="../image/2.png"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="../image/3.png"></image></swiper-item>
+</swiper>
+</view>
+
+<view class="jump0">
+<navigator url="../index1/index1" open-type="navigate">
+<image src="../image/printlogo.png"  mode="widthFix"></image>
+</navigator>
+</view>
+
+<view class="text0">
+  <navigator url="../index1/index1" open-type="navigate">
+  <text>普通打印</text>
+  </navigator> 
+</view>
+
+<view class="jump1">
+<navigator url="../index1/index1" open-type="navigate">
+<image src="../image/colorprint.png"  mode="widthFix"></image>
+</navigator>
+</view>
+
+<view class="text1">
+  <navigator url="../index1/index1" open-type="navigate">
+  <text>彩印</text>
+  </navigator> 
+</view>
+
+<view class="jump2">
+<navigator url="../index1/index1" open-type="navigate">
+<image src="../image/photoprint.png"  mode="widthFix"></image>
+</navigator>
+</view>
+
+<view class="text2">
+  <navigator url="../index1/index1" open-type="navigate">
+  <text>照片打印</text>
+  </navigator> 
+</view>

@@ -1,0 +1,78 @@
+/* pages/Firstpage/Firstpage.wxss */
+.page{
+  margin: 0px 10px 0px 10px;
+}
+.swiper{
+  width: 100%;
+  height: 250px;
+}
+image{
+  width: 100%;
+}
+.body{
+  margin: 50px 10px 0px 10px;
+  margin-left: 13%;
+  margin-top: -20%;
+  display: flex;
+  flex-direction: row; 
+}
+.body view{
+  width: 300px;
+  height: 300px;
+  align-content: center;
+}
+.left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.left view{
+  width: 200px;
+  height: 500px;
+}
+/*图文比例*/
+.l1{
+  flex: 1.5;
+}
+.l1_1{
+  flex: 2;
+}
+.l3{
+  flex: 1.5;
+}
+.l3_1{
+  flex: 2;
+}
+.l2{
+  flex: 1.5;
+}
+.l2_1{
+  flex: 2;
+}
+.l4{
+  flex: 1.5;
+}
+.l4_1{
+  flex: 2;
+}
+.right{
+  flex: 1;
+  display:flex;
+  flex-direction: column; 
+}
+.right view{
+  width: 200px;
+  height: 200px;
+}
+.img{
+  width: 70px;
+  height: 70px;
+
+}
+.foot{
+  font-size: 12px;
+  font-style: oblique;
+  background-color: rgb(105, 244, 247);
+  text-align: center;
+  margin-top: 9%;
+}

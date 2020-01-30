@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/test0/test0",
+    "pages/test1/test1",
+
+    "pages/First_page/First_page",
+    "pages/Firstpage/Firstpage",
+    "pages/index/index",
+    "pages/index1/index1",
+    "pages/index2/index2",
+    "pages/logs/logs",
+    "pages/image/images"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#4A85A5",
+    "navigationBarTitleText": "打印机小程序",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/First_page/First_page",
+      "text": "首页",
+      "iconPath": "pages/image/principal.png",
+      "selectedIconPath": "pages/image/principal.png"
+    },
+    {
+      "pagePath": "pages/index2/index2",
+      "text": "购物车",
+      "iconPath": "pages/image/shopcar.png",
+      "selectedIconPath": "pages/image/shopcar.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "我的",
+      "iconPath": "pages/image/me.png",
+      "selectedIconPath": "pages/image/me.png"
+    }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
